@@ -33,7 +33,7 @@
 		74CB775928536D8C1755555D /* Pods-Projeto Lojas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Projeto Lojas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Projeto Lojas/Pods-Projeto Lojas.release.xcconfig"; sourceTree = "<group>"; };
 		7603CD92110C928BC5E95B3E /* Pods-Projeto Lojas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Projeto Lojas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Projeto Lojas/Pods-Projeto Lojas.debug.xcconfig"; sourceTree = "<group>"; };
 		95F418C42601BB57AB0B0162 /* Pods_Projeto_Lojas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Projeto_Lojas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F50B809B2141E1DD006FCEE4 /* Projeto Lojas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projeto Lojas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50B809B2141E1DD006FCEE4 /* ProjetoFinal_IOS_II.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoFinal_IOS_II.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50B809E2141E1DD006FCEE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F50B80A32141E1DD006FCEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F50B80A52141E1DF006FCEE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		F50B809C2141E1DD006FCEE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F50B809B2141E1DD006FCEE4 /* Projeto Lojas.app */,
+				F50B809B2141E1DD006FCEE4 /* ProjetoFinal_IOS_II.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,9 +205,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F50B809A2141E1DD006FCEE4 /* Projeto Lojas */ = {
+		F50B809A2141E1DD006FCEE4 /* ProjetoFinal_IOS_II */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F50B80AD2141E1DF006FCEE4 /* Build configuration list for PBXNativeTarget "Projeto Lojas" */;
+			buildConfigurationList = F50B80AD2141E1DF006FCEE4 /* Build configuration list for PBXNativeTarget "ProjetoFinal_IOS_II" */;
 			buildPhases = (
 				783AF0E2DFBED8A4EFCA85E2 /* [CP] Check Pods Manifest.lock */,
 				F50B80972141E1DD006FCEE4 /* Sources */,
@@ -219,9 +219,9 @@
 			);
 			dependencies = (
 			);
-			name = "Projeto Lojas";
+			name = ProjetoFinal_IOS_II;
 			productName = "Projeto Lojas";
-			productReference = F50B809B2141E1DD006FCEE4 /* Projeto Lojas.app */;
+			productReference = F50B809B2141E1DD006FCEE4 /* ProjetoFinal_IOS_II.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -232,14 +232,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = com.iesb;
+				ORGANIZATIONNAME = br.com.iesb.ios2.projetoFinal;
 				TargetAttributes = {
 					F50B809A2141E1DD006FCEE4 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = F50B80962141E1DD006FCEE4 /* Build configuration list for PBXProject "Projeto Lojas" */;
+			buildConfigurationList = F50B80962141E1DD006FCEE4 /* Build configuration list for PBXProject "ProjetoFinal_IOS_II" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -252,7 +252,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F50B809A2141E1DD006FCEE4 /* Projeto Lojas */,
+				F50B809A2141E1DD006FCEE4 /* ProjetoFinal_IOS_II */,
 			);
 		};
 /* End PBXProject section */
@@ -487,7 +487,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iesb.Projeto-Lojas";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iesb.ios2.projetoFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -506,7 +506,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iesb.Projeto-Lojas";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.iesb.ios2.projetoFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,7 +516,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F50B80962141E1DD006FCEE4 /* Build configuration list for PBXProject "Projeto Lojas" */ = {
+		F50B80962141E1DD006FCEE4 /* Build configuration list for PBXProject "ProjetoFinal_IOS_II" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F50B80AB2141E1DF006FCEE4 /* Debug */,
@@ -525,7 +525,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F50B80AD2141E1DF006FCEE4 /* Build configuration list for PBXNativeTarget "Projeto Lojas" */ = {
+		F50B80AD2141E1DF006FCEE4 /* Build configuration list for PBXNativeTarget "ProjetoFinal_IOS_II" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F50B80AE2141E1DF006FCEE4 /* Debug */,
